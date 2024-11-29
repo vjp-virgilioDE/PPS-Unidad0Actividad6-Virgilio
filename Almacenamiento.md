@@ -1,6 +1,6 @@
-## Almacenamiento
+# Almacenamiento
 
-# Entrega uno de estos dos ejercicios (si estás muy aburrido puedes entregar los dos):
+## Entrega uno de estos dos ejercicios (si estás muy aburrido puedes entregar los dos):
 
 Creación y uso de volúmenes
 
