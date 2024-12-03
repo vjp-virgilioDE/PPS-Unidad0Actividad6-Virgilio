@@ -1,6 +1,7 @@
-Ejercicios para entregar
+# Almacenamiento
 
-Entrega uno de estos dos ejercicios (si estás muy aburrido puedes entregar los dos):
+## Entrega uno de estos dos ejercicios (si estás muy aburrido puedes entregar los dos):
+
 Creación y uso de volúmenes
 
     Crear los siguientes volúmenes con la orden docker volume: volumen_datos y volumen_web.
