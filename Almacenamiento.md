@@ -51,13 +51,30 @@ Deberás entregar los siguientes pantallazos comprimidos en un zip o en un docum
 
     Crea una carpeta llamada saludo y dentro de ella crea un fichero llamado index.html con el siguiente contenido (Deberás sustituir ese XXXXXx por tu nombre.):
 
+![](Imagenes/ejercicio1.png) 
+
+![](Imagenes/ejercicio2.png)
+
      <h1>HOLA SOY XXXXXX</h1>
 
     Una vez hecho esto arrancar dos contenedores basados en la imagen php:7.4-apache que hagan un bind mount de la carpeta saludo en la carpeta /var/www/html del contenedor. Uno de ellos vamos a acceder con el puerto 8181 y el otro con el 8282. Y su nombres serán c1 y c2.
+
+![](Imagenes/ejercicio3.png) 
+
+![](Imagenes/ejercicio4.png)
+
+
     Modifica el contenido del fichero ~/saludo/index.html.
+
+ ![](Imagenes/ejercicio5.png)
+
     Comprueba que puedes seguir accediendo a los contenedores, sin necesidad de reiniciarlos.
 
+![](Imagenes/ejercicio6.png) 
+
 Deberás entregar los siguientes pantallazos comprimidos en un zip o en un documento pdf:
+
+![](Imagenes/ejercicio7.png) 
 
     Pantallazo con la orden correspondiente para arrancar el contenedor c1 (puerto 8181) realizando el bind mount solicitado.
     Pantallazo con la orden correspondiente para arrancar el contenedor c2 (puerto 8282) realizando el bind mount solicitado.
