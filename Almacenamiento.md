@@ -9,15 +9,19 @@
 ![](Imagenes/imagen16.png)
 
     Una vez creados estos contenedores:
-        Arrancar un contenedor llamado c1 sobre la imagen php:7.4-apache que monte el volumen_web en la ruta /var/www/html y que sea accesible en el puerto 8080.
+    
+    Arrancar un contenedor llamado c1 sobre la imagen php:7.4-apache que monte el volumen_web en la ruta /var/www/html y
+    que sea accesible en el puerto 8080.
 
 ![](Imagenes/imagen17.png)
 
-        Arrancar un contenedor llamado c2 sobre la imagen mariadb que monte el volumen_datos en la ruta /var/lib/mysql y cuya contraseña de root sea admin.
+    Arrancar un contenedor llamado c2 sobre la imagen mariadb que monte el volumen_datos en la ruta /var/lib/mysql y 
+    cuya contraseña de root sea admin.
 
 ![](Imagenes/imagen18.png)
 
-    Intenta borrar el volumen volumen_datos, para ello tendrás que parar y borrar el contenedor c2 y tras ello borrar el volumen.
+    Intenta borrar el volumen volumen_datos, para ello tendrás que parar y borrar el contenedor c2 y tras ello borrar el 
+    volumen.
 
 ![](Imagenes/imagen19.png)
 
@@ -40,16 +44,15 @@ Deberás entregar los siguientes pantallazos comprimidos en un zip o en un docum
     Pantallazo con la orden correspondiente para arrancar el contenedor c1 usando el volumen_web.
 
 ![](Imagenes/imagen20.png)    
-    Pantallazo con la orden correspondiente para arrancar el contenedor c2 usando el volumen_datos.
-
-    
+    Pantallazo con la orden correspondiente para arrancar el contenedor c2 usando el volumen_datos.    
     Pantallazo donde se vea el proceso para poder borrar el volumen_datos.
     Pantallazo donde se vea el borrado de c1 y la creación de c3.
     Pantallazo donde se vea el acceso al contenedor c3.
 
 ### Bind mount para compartir datos
 
-    Crea una carpeta llamada saludo y dentro de ella crea un fichero llamado index.html con el siguiente contenido (Deberás sustituir ese XXXXXx por tu nombre.):
+    Crea una carpeta llamada saludo y dentro de ella crea un fichero llamado index.html con el siguiente contenido (Deberás 
+    sustituir ese XXXXXx por tu nombre.):
 
 ![](Imagenes/ejercicio1.png) 
 
@@ -57,7 +60,9 @@ Deberás entregar los siguientes pantallazos comprimidos en un zip o en un docum
 
      <h1>HOLA SOY XXXXXX</h1>
 
-    Una vez hecho esto arrancar dos contenedores basados en la imagen php:7.4-apache que hagan un bind mount de la carpeta saludo en la carpeta /var/www/html del contenedor. Uno de ellos vamos a acceder con el puerto 8181 y el otro con el 8282. Y su nombres serán c1 y c2.
+    Una vez hecho esto arrancar dos contenedores basados en la imagen php:7.4-apache que hagan un bind mount de la carpeta 
+    saludo en la carpeta /var/www/html del contenedor. Uno de ellos vamos a acceder con el puerto 8181 y el otro con el 
+    8282. Y su nombres serán c1 y c2.
 
 ![](Imagenes/ejercicio3.png) 
 
