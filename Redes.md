@@ -1,8 +1,9 @@
-Ejercicios para entregar
-Entrega uno de estos dos ejercicios (si estás muy aburrido puedes entregar los dos):
+# Redes
+
+## Entrega uno de estos dos ejercicios (si estás muy aburrido puedes entregar los dos):
 
 Trabajar con redes docker
-Vamos a crear dos redes de ese tipo (BRIDGE) con los siguientes datos:
+### Vamos a crear dos redes de ese tipo (BRIDGE) con los siguientes datos:
 
 Red1
 
@@ -27,7 +28,8 @@ Pantallazo donde se pueda comprobar que si conectamos el contenedor u1 a la red2
 Despliegue de Nextcloud + mariadb/postgreSQL
 Vamos a desplegar la aplicación nextcloud con una base de datos (puedes elegir mariadb o PostgreSQL) (NOTA: Para que no te de errores utiiliza la imagen mariadb:10.5). Te puede servir el ejercicio que hemos realizado para desplegar Wordpress. Para ello sigue los siguientes pasos:
 
-Crea una red de tipo bridge.
+### Crea una red de tipo bridge.
+
 Crea el contenedor de la base de datos conectado a la red que has creado. La base de datos se debe configurar para crear una base de dato y un usuario. Además el contenedor debe utilizar almacenamiento (volúmenes o bind mount) para guardar la información. Puedes seguir la documentación de mariadb o la de PostgreSQL.
 A continuación, siguiendo la documentación de la imagen nextcloud, crea un contenedor conectado a la misma red, e indica las variables adecuadas para que se configure de forma adecuada y realice la conexión a la base de datos. El contenedor también debe ser persistente usando almacenamiento.
 Accede a la aplicación usando un navegador web.
