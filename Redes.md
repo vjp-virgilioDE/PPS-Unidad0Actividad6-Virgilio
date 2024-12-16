@@ -13,20 +13,45 @@ Máscara de red: 255.255.0.0
 Gateway: 172.28.0.1
 Red2
 
+![](redes1.jpg)
+
 Nombre: red2
 Es resto de los datos será proporcionados automáticamente por Docker.
-Poner en ejecución un contenedor de la imagen ubuntu:20.04 que tenga como hostname host1, como IP 172.28.0.10 y que esté conectado a la red1. Lo llamaremos u1.
+
+![](redes2.jpg)
+
+Poner en ejecución un contenedor de la imagen ubuntu:20.04 que tenga como hostname host1, como IP 172.28.0.10 y que esté conectado a la red1.
+
+![](redes3.jpg)
+
+Lo llamaremos u1.
 Entrar en ese contenedor e instalar la aplicación ping (apt update && apt install inetutils-ping).
-Poner en ejecución un contenedor de la imagen ubuntu:20.04 que tenga como hostname host2 y que esté conectado a la red2. En este caso será docker el que le de una IP correspondiente a esa red. Lo llamaremos u2.
+
+![](redes4.jpg)
+![](redes4.1.jpg)
+
+Poner en ejecución un contenedor de la imagen ubuntu:20.04 que tenga como hostname host2 y que esté conectado a la red2. 
+
+![](redes5.jpg)
+
+En este caso será docker el que le de una IP correspondiente a esa red. Lo llamaremos u2.
+
+![](redes6.jpg)
+
 Entrar en ese contenedor e instalar la aplicación ping (apt update && apt install inetutils-ping).
+
+![](redes6.1.jpg)
+
 Deberás entregar los siguientes pantallazos comprimidos en un zip o en un documento pdf:
 
 Pantallazo donde se vea la configuración de red del contenedor u1.
 Pantallazo donde se vea la configuración de red del contenedor u2.
 Pantallazo donde desde cualquiera de los dos contenedores se pueda ver que no podemos hacer ping al otro ni por ip ni por nombre.
-Pantallazo donde se pueda comprobar que si conectamos el contenedor u1 a la red2 (con docker network connect), desde el contenedor u1, tenemos acceso al contenedor u2 mediante ping, tanto por nombre como por ip.
+Pantallazo donde se pueda comprobar que si conectamos el contenedor u1 a la red2 (con docker network connect), desde el contenedor u1, tenemos acceso al contenedor u2 mediante ping, 
+tanto por nombre como por ip.
 Despliegue de Nextcloud + mariadb/postgreSQL
-Vamos a desplegar la aplicación nextcloud con una base de datos (puedes elegir mariadb o PostgreSQL) (NOTA: Para que no te de errores utiiliza la imagen mariadb:10.5). Te puede servir el ejercicio que hemos realizado para desplegar Wordpress. Para ello sigue los siguientes pasos:
+Vamos a desplegar la aplicación nextcloud con una base de datos (puedes elegir mariadb o PostgreSQL) (NOTA: Para que no te de errores utiiliza la imagen mariadb:10.5). 
+Te puede servir el ejercicio que hemos realizado para desplegar Wordpress. Para ello sigue los siguientes pasos:
 
 ### Crea una red de tipo bridge.
 
