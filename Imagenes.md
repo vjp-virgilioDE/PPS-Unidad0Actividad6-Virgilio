@@ -29,7 +29,6 @@ Vemos los dos contenedores activos
 
 ![](Imagenes/imagen11.png)
 
-Deberás entregar los siguientes pantallazos comprimidos en un zip o en un documento pdf:
 
 Pantallazo que desde el navegador muestre el fichero index.html.
 
