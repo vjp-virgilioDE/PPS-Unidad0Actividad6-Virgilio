@@ -13,11 +13,6 @@ Colocar en ese mismo directorio raíz un archivo llamado index.php con el siguie
 
 ![](Imagenes/imagen9.png)
 
-Para crear los ficheros tienes tres alternativas:
-Ejecutando bash de forma interactiva en el contenedor y creando los ficheros.
-Ejecutando un comando echo en el contenedor con docker exec.
-Usando docker cp como hemos visto en el ejercicio 5.
-
 ## Servidor de base de datos
 Arrancar un contenedor que se llame bbdd y que ejecute una instancia de la imagen mariadb para que sea accesible desde el puerto 3336.
 
