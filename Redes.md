@@ -18,29 +18,28 @@ Red2
 Nombre: red2
 Es resto de los datos será proporcionados automáticamente por Docker.
 
-![](redes2.JPG)
+![](Imagenes/redes2.JPG)
 
 Poner en ejecución un contenedor de la imagen ubuntu:20.04 que tenga como hostname host1, como IP 172.28.0.10 y que esté conectado a la red1.
 
-![](redes3.jpg)
-
+![](Imagenes/redes3.JPG)
 Lo llamaremos u1.
 Entrar en ese contenedor e instalar la aplicación ping (apt update && apt install inetutils-ping).
 
-![](redes4.jpg)
-![](redes4.1.jpg)
+![](Imagenes/redes4.JPG)
+![](Imagenes/redes4.1.JPG)
 
 Poner en ejecución un contenedor de la imagen ubuntu:20.04 que tenga como hostname host2 y que esté conectado a la red2. 
 
-![](redes5.jpg)
+![](Imagenes/redes5.JPG)
 
 En este caso será docker el que le de una IP correspondiente a esa red. Lo llamaremos u2.
 
-![](redes6.jpg)
+![](Imagenes/redes6.JPG)
 
 Entrar en ese contenedor e instalar la aplicación ping (apt update && apt install inetutils-ping).
 
-![](redes6.1.jpg)
+![](Imagenes/redes6.1.JPG)
 
 Deberás entregar los siguientes pantallazos comprimidos en un zip o en un documento pdf:
 
