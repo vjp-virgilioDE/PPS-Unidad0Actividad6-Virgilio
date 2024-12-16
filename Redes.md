@@ -18,7 +18,7 @@ Red2
 Nombre: red2
 Es resto de los datos será proporcionados automáticamente por Docker.
 
-![](redes2.jpg)
+![](redes2.JPG)
 
 Poner en ejecución un contenedor de la imagen ubuntu:20.04 que tenga como hostname host1, como IP 172.28.0.10 y que esté conectado a la red1.
 
