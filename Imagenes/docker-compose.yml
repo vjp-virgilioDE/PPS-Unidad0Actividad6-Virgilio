@@ -1,0 +1,35 @@
+version: '2'
+
+services:
+  mariadb:
+    image: 'bitnami/mariadb:latest'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MARIADB_USER=pepe
+      - MARIADB_PASSWORD=pepe
+      - MARIADB_DATABASE=mitienda
+    volumes:
+      - 'mariadb_data:/bitnami'
+
+  prestashop:
+    image: 'bitnami/prestashop:latest'
+    environment:
+#      - PRESTASHOP_HOST=
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MARIADB_HOST=mariadb
+      - MARIADB_PORT_NUMBER=3306
+      - MARIADB_USER=pepe
+      - MARIADB_PASSWORD=pepe
+      - MARIADB_DATABASE=mitienda
+    ports:
+      - '8080:8080'
+      - '8443:8443'
+    volumes:
+      - 'prestashop_data:/bitnami'
+
+volumes:
+  mariadb_data:
+    driver: local
+  prestashop_data:
+    driver: local
+
