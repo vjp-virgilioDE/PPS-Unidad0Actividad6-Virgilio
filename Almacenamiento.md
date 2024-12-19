@@ -31,6 +31,7 @@
 
 ![](Imagenes/imagen21.png)
 
+
 ![](Imagenes/imagen22.png)
 
     Borra el contenedor c1 y crea un contenedor c3 con las mismas características que c1 pero sirviendo en el puerto 8081.
@@ -43,7 +44,8 @@ Deberás entregar los siguientes pantallazos comprimidos en un zip o en un docum
 
     Pantallazo con la orden correspondiente para arrancar el contenedor c1 usando el volumen_web.
 
-![](Imagenes/imagen20.png)    
+![](Imagenes/imagen20.png) 
+
     Pantallazo con la orden correspondiente para arrancar el contenedor c2 usando el volumen_datos.    
     Pantallazo donde se vea el proceso para poder borrar el volumen_datos.
     Pantallazo donde se vea el borrado de c1 y la creación de c3.
@@ -81,9 +83,7 @@ Deberás entregar los siguientes pantallazos comprimidos en un zip o en un docum
 
 ![](Imagenes/ejercicio7.png) 
 
-    Pantallazo con la orden correspondiente para arrancar el contenedor c1 (puerto 8181) realizando el bind mount solicitado.
-    Pantallazo con la orden correspondiente para arrancar el contenedor c2 (puerto 8282) realizando el bind mount solicitado.
-    Pantallazo donde se pueda apreciar que accediendo a c1 se puede ver el contenido de index.html.
-    Pantallazo donde se pueda apreciar que accediendo a c2 se puede ver el contenido de index.html.
-    Otro dos pantallazos (o uno) donde se vea accediendo a los contenedores después de modificar el fichero index.html.
+
+![](Imagenes/ejercicio8.png) 
+ 
 
