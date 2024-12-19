@@ -54,7 +54,7 @@ sustituir ese XXXXXx por tu nombre.):
 
 ![](Imagenes/ejercicio2.png)
 
-<h1>HOLA SOY XXXXXX</h1>
+# <h1>HOLA SOY XXXXXX</h1>
 
 Una vez hecho esto arrancar dos contenedores basados en la imagen php:7.4-apache que hagan un bind mount de la carpeta 
 saludo en la carpeta /var/www/html del contenedor. Uno de ellos vamos a acceder con el puerto 8181 y el otro con el 
