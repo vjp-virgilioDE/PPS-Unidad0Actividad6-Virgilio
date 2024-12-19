@@ -34,10 +34,6 @@ Pantallazo que desde el navegador muestre el fichero index.html.
 
 ![](Imagenes/imagen12.png)
 
-Pantallazo que desde el navegador muestre el fichero index.php.
-
-![](Imagenes/imagen12.png)
-
 Pantallazo donde se vea el tamaño del contenedor web después de crear los dos ficheros.
 
 ![](Imagenes/imagen13.png)
