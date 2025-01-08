@@ -28,5 +28,11 @@ Borra el escenario con docker-compose.
 Deberás entregar los siguientes pantallazos comprimidos en un zip o en un documento pdf:
 
 Pantallazo donde se vea el fichero docker-compose.yaml.
+
+![](Imagenes/prestashop1.png)
 Pantallazo donde se vea los contenedores funcionando con la instrucción docker-compose.
+![](Imagenes/prestashop2.png)
+
+![](Imagenes/prestashop3.png)
 Pantallazo donde se vea el acceso desde el navegador a la aplicación.
+
