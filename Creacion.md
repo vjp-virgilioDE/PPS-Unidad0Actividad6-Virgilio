@@ -12,6 +12,20 @@ Pantallazo donde se vea el comando que crea la nueva imagen.
 Pantallazo donde se vea la imagen subida a tu cuenta de Docker Hub.
 Pantalalzo donde se vea la bajada de la imagen y la creación de un nuevo contenedor.
 
+![](Imagenes/docker1.png)
+
+![](Imagenes/docker2.png)
+
+![](Imagenes/docker3.png)
+
+![](Imagenes/docker4.png)
+
+![](Imagenes/docker5.png)
+
+![](Imagenes/docker6.png)
+
+![](Imagenes/docker7.png)
+
 # Creación de una imagen a partir de un Dockerfile
 
 Crea una página web estática (por ejemplo busca una plantilla HTML5). O simplemente crea un index.html.
