@@ -39,3 +39,16 @@ Pantallazo donde se vea el contenido del fichero Dockerfile.
 Pantallazo donde se vea el comando que crea la nueva imagen.
 Pantallazo donde se vea la imagen subida a tu cuenta de Docker Hub.
 Pantalalzo donde se vea la bajada de la imagen y la creación de un nuevo contenedor.
+
+![](Imagenes/WEB1.png)
+
+![](Imagenes/WEB2.png)
+
+![](Imagenes/WEB3.png)
+
+![](Imagenes/web4.png)
+
+![](Imagenes/WEB5.png)
+
+![](Imagenes/WEB6.png)
+
